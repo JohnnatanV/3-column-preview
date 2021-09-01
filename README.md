@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./home/johnnatan/Documentos/Frontend Mentor/3-column-preview-card-component-main/Screenshot 2021-09-01 at 16-52-59 Frontend Mentor 3-column preview card component.png)
+[Desktop](/Desktop-view.png)
 
-![Mobile](./home/johnnatan/Documentos/Frontend Mentor/3-column-preview-card-component-main/Screenshot 2021-09-01 at 16-53-37 Frontend Mentor 3-column preview card component.png)
+[Mobile](/Mobile-view.png)
 
 ### Links
 
