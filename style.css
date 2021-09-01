@@ -1,0 +1,110 @@
+body {
+  background: var(--very-light-gray);
+}
+
+/* MAIN */
+
+.container {
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.car-box {
+  width: 220px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+.car-box__tittle {
+  font-size: 2em;
+}
+
+.car-box:nth-child(1) {
+  background: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+.car-box:nth-child(2) {
+  background: hsl(184, 100%, 22%);
+}
+.car-box:nth-child(3) {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+.car-box__img {
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+.car-box__text {
+  margin-top: 40px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.car-box__btn {
+  width: 150px;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 70px;
+  background: hsl(0, 0%, 95%);
+  color: transparent;
+}
+
+/* FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* 
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+*/
+/* 
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
+/* 
+# Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
