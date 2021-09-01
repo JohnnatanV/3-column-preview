@@ -17,8 +17,8 @@ body {
   --very-light-gray: hsl(0, 0%, 95%);
 }
 
-header {
-  display: none;
+h1 {
+  color: var(--very-light-gray);
 }
 
 /* MAIN */
