@@ -2,6 +2,25 @@ body {
   background: var(--very-light-gray);
 }
 
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --bright--orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* ### Neutral */
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+header {
+  display: none;
+}
+
 /* MAIN */
 
 .container {
@@ -14,8 +33,8 @@ body {
 }
 
 .car-box {
-  width: 220px;
-  padding: 40px;
+  width: 230px;
+  padding: 45px;
   display: flex;
   flex-direction: column;
   font-family: "Big Shoulders Display", cursive;
@@ -23,19 +42,51 @@ body {
 }
 
 .car-box__tittle {
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 .car-box:nth-child(1) {
-  background: hsl(31, 77%, 52%);
+  background: var(--bright--orange);
   border-radius: 8px 0 0 8px;
 }
-.car-box:nth-child(2) {
-  background: hsl(184, 100%, 22%);
+
+.car-box:nth-child(1) .car-box__btn {
+  color: var(--bright--orange);
 }
+
+.car-box:nth-child(1) .car-box__btn:hover {
+  border: 3px solid var(--very-light-gray);
+  background: var(--bright--orange);
+  color: var(--very-light-gray);
+}
+
+.car-box:nth-child(2) {
+  background: var(--dark-cyan);
+}
+
+.car-box:nth-child(2) .car-box__btn {
+  color: var(--dark-cyan);
+}
+
+.car-box:nth-child(2) .car-box__btn:hover {
+  border: 3px solid var(--very-light-gray);
+  background: var(--dark-cyan);
+  color: var(--very-light-gray);
+}
+
 .car-box:nth-child(3) {
-  background: hsl(179, 100%, 13%);
+  background: var(--very-dark-cyan);
   border-radius: 0 8px 8px 0;
+}
+
+.car-box:nth-child(3) .car-box__btn {
+  color: var(--very-dark-cyan);
+}
+
+.car-box:nth-child(3) .car-box__btn:hover {
+  border: 3px solid var(--very-light-gray);
+  background: var(--very-dark-cyan);
+  color: var(--very-light-gray);
 }
 
 .car-box__img {
@@ -44,20 +95,30 @@ body {
 }
 
 .car-box__text {
-  margin-top: 40px;
+  margin-top: 10px;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
 }
 
 .car-box__btn {
   width: 150px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
   font-family: "Lexend Deca", sans-serif;
+  font-size: 1em;
   margin-top: 70px;
-  background: hsl(0, 0%, 95%);
-  color: transparent;
+  background: var(--very-light-gray);
 }
 
 /* FOOTER */
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
 
 .attribution {
   font-size: 11px;
@@ -67,6 +128,27 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (max-width: 1000px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .car-box {
+    width: 260px;
+  }
+
+  .car-box:nth-child(1) {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .car-box:nth-child(3) {
+    background: var(--very-dark-cyan);
+    border-radius: 0 0 8px 8px;
+  }
+}
 /* 
 ## Typography
 
