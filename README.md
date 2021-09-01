@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JohnnatanV/3-column-preview)
-- Live Site URL: [Add live site URL here](https://johnnatanv.github.io/3-column-preview/)
+- Solution URL: [Gihub Repository](https://github.com/JohnnatanV/3-column-preview)
+- Live Site URL: [Github page url](https://johnnatanv.github.io/3-column-preview/)
 
 ## My process
 
